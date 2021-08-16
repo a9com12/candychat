@@ -1,6 +1,11 @@
 .user-component {
   justify-content: space-between;
   margin: 15px 0px;
+  transition: all 1s ease-in-out;
+}
+
+.user-component:hover {
+  transform: scale(1.1);
 }
 
 .user-component,
