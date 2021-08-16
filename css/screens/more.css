@@ -39,3 +39,8 @@
 .fa-info-circle {
   color: tomato;
 }
+
+.more-suggestions__icon span {
+  margin-left: 20px;
+  width: 100%;
+}
