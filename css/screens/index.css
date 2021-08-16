@@ -1,0 +1,41 @@
+#index-screen {
+  background-image: linear-gradient(
+    to right bottom,
+    #ffd3eb,
+    #f5ccef,
+    #e8c7f3,
+    #d6c3f8,
+    #bfc0fc,
+    #abc6ff,
+    #96cbff,
+    #83d0ff,
+    #7dddff,
+    #7de9ff,
+    #86f4fd,
+    #96fff8
+  );
+  height: 100vh;
+  color: white;
+  font-weight: 600;
+}
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.welcome-header_text {
+  margin-top: 20px;
+  width: 80%;
+  opacity: 0.7;
+  font-size: 16px;
+}

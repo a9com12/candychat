@@ -18,7 +18,9 @@
 }
 .friends-screen__channel {
   margin-top: 25px;
+
   border-top: var(--main-border);
+
   padding-top: 15px;
 }
 .friends-screen__channel-header {
@@ -39,15 +41,37 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-image: linear-gradient(
+    to right bottom,
+    #ffd3eb,
+    #f5ccef,
+    #e8c7f3,
+    #d6c3f8,
+    #bfc0fc,
+    #abc6ff,
+    #96cbff,
+    #83d0ff,
+    #7dddff,
+    #7de9ff,
+    #86f4fd,
+    #96fff8
+  );
+  color: White;
   position: absolute;
   height: 100vh;
   width: 100vw;
   top: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+}
+
+#splash-screen h5 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: bold;
 }

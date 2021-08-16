@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  background-color: #d6c3f8;
   position: fixed;
   box-sizing: border-box;
   width: 100%;
@@ -25,6 +26,6 @@
   align-items: center;
   margin-left: 6px;
 }
-.status-bar_column.fa-battery-full {
+.fa-battery-full {
   margin: 0px 5px;
 }

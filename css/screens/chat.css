@@ -1,5 +1,19 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffd3eb,
+    #f5ccef,
+    #e8c7f3,
+    #d6c3f8,
+    #bfc0fc,
+    #abc6ff,
+    #96cbff,
+    #83d0ff,
+    #7dddff,
+    #7de9ff,
+    #86f4fd,
+    #96fff8
+  );
   height: 500vh;
 }
 
