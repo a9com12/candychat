@@ -1,4 +1,3 @@
-# kokoa-2021
-Kokoa clone 2021 update.
-Kokoa clone 2021 Update
-HTML & CSS are much fun!
+# Candy talk -2022
+
+Cany Talk 2022 updated.
